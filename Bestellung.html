@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eisdiele - Eis bestellen</title>
+    <style>
+        body {
+            font-family: Kanit, Kanit;
+            background-color: #ffc0cb; /* Rosatöne */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #DB7093; /* Pink für den Header */
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #FFF; /* Pink für die Navigationsleiste */
+            text-align: center;
+        }
+
+        nav a {
+            color: #DB7093;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        nav a:hover {
+            background-color: #FFF; /* Helleres Pink im Hover-Zustand */
+        }
+
+        footer {
+            background-color: #FFF;
+            color: PaleVioletRed;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .container {
+            margin: 20px auto;
+            background-color: PaleVioletRed;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        select, button {
+            font-size: 16px;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        button {
+            background-color: #ff69b4; /* Rosa */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #FFF; /* Dunkleres Rosa */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pink Ice Cream</h1>
+    </header>
+    <nav>
+    <a href="Index.html">Home</a>
+    <a href="Bestellung.html">Bestellen</a>
+    <a href="Unsere Sorten.html">Unsere Sorten</a>
+    <a href="About.html">Über Uns</a>
+    <a href="Kontakt.html">Kontakt</a>
+    <a href="Öffnungszeiten.html">Öffnungszeiten</a>
+  </nav>
+
+    <div class="container">
+        <h2>Eis bestellen:</h2>
+        <div align="center">
+       <form action="bestellung-bestätigung.html" method="post">
+    <label for="eissorten">Sorten(1€):</label>
+    <select id="eissorten" name="eissorten" multiple>
+        <option value="mango">Mango-Kokos</option>
+        <option value="straziatella">Straziatella</option>
+        <option value="pistazie">Pistazie</option>
+                        <option value="schokolade">Schokolade-Minze</option>
+                         <option value="amaretto">Amaretto-Schoko</option>
+                         <option value="heidelbeere">Heidelbeere</option>
+                         <option value="bienenstich">Bienenstich</option>
+                         <option value="sesam-vanille">Sesam-Vanille</option>
+                         <option value="Tiramisu">Tiramisu</option>
+                         <option value="johannisbeere">Träuble</option>
+                         <option value="Zitrone">Zitrone</option>
+                         <option value="lavendel">Lavendel</option>
+
+        <!-- Weitere Eissorten hier hinzufügen -->
+    </select>
+
+    <label for="toppings">Toppings(+0,50€):</label>
+    <select id="toppings" name="toppings" multiple>
+        <option value="schokostreusel">Schokostreusel</option>
+        <option value="sahne">Sahne</option>
+                         <option value="Honig">Honig</option>
+                         <option value="Kokosraspeln">Kokosraspeln</option>
+                         <option value="Schokosauce">Schokosauce</option>
+                         <option value="vanillesauce">Vanillesauce</option>
+                         <option value="Erdbeersauce">Erdbeersauce</option>
+                         <option value="Blaubeeren">Blaubeeren</option>
+                         <option value="Erdbeeren">Erdbeeren</option>
+                         <option value="Banane">Banane</option>
+                         <option value="geröstete Mandel">geröstete Mandeln</option>
+                         <option value="Haselnuss">Haselnussstückchen</option>
+                         <option value="Waffel">Waffel</option>
+
+        <!-- Weitere Toppings hier hinzufügen -->
+    </select>
+
+          </body>
+    </html>
+
+    <label for="behälter">Behälter:</label>
+    <select id="behälter" name="behälter">
+        <option value="waffel">Waffel</option>
+        <option value="becher">Becher</option>
+    </select> <br/>
+      <a href="bestellung-bestätigung.html"><img src="https://cdn.icon-icons.com/icons2/610/PNG/512/buy-now_icon-icons.com_56388.png" height="50" width="50"></a>
+</div>
+</form>
+</main>
+<footer>
+  <h4> Instagram: @jule.mbq @vivien.laurenzano @lea_hxxnz </h4>
+  <h5>&copy; 2023 Pink Ice Cream. Alle Rechte vorbehalten.</h5>
+</footer>
